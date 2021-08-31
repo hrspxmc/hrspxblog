@@ -1,0 +1,64 @@
+baseURL: https://example.com
+languageCode: en-us
+title: hrspx::blog 
+theme: hugo-theme-noteworthy
+enableRobotsTXT: yes
+paginate: 4
+summaryLength: 10
+googleAnalytics: ''
+disqusShortname: ''
+taxonomies:
+  tag: tags
+author:
+  name: kimcc
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+params:
+  description: Vestibulum viverra aliquet leo vehicula porta. Proin lobortis est augue, in bibendum lorem blandit ac. Duis eu orci condimentum, sollicitudin nunc ut, eleifend sapien. Ut fermentum risus vel eros feugiat, gravida ornare turpis tempor. Phasellus at lacus enim. Maecenas sit amet justo fringilla,  
+  email: '#'
+  github: '#'
+  gitlab: '#'
+  math: yes
+  reddit: '#'
+  showReadMore: no
+  stackoverflow: '#'
+  twitter: '#'
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: archives
+      name: All posts
+      url: /archives/
+      weight: 3
+    - identifier: series
+      name: Series
+      url: /series/
+      weight: 4
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 5
+privacy:
+  disqus:
+    disable: no
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: no
+    respectDoNotTrack: no
+    useSessionStorage: no
+  instagram:
+    disable: yes
+    simple: no
+  twitter:
+    disable: no
+    enableDNT: no
+    simple: no
